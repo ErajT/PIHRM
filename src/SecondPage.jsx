@@ -81,18 +81,33 @@ const SecondPage = () => {
       {/* Vision, Mission, Values Section */}
       <VerticalSection style={{ flex: 1 }}>
         <Card title="Vision">
-          <p>Content for Vision goes here.</p>
+          <p>PIHRM aims to be the Centre of Excellence, shaping the future of the Human Resource and Industrial Relations professionals, empowering to lead with excellence, innovation, integrity, and inclusivity.
+          </p>
         </Card>
         <Card title="Mission">
-          <p>Content for Mission goes here.</p>
+        <p>
+          PIHRM is dedicated to elevating the standards of HR and IR practices by:<br />
+          • PIHRM provides research, advocacy, and representation to promote the standing of the HR and profession and engender its best practices within workplaces.<br />
+          • Cultivating a deep understanding of HR/IR policies and strategic applications.<br />
+          • Mentoring and empowering the next generation of HR/IR leaders.<br />
+          • Pioneering research and development to address contemporary HR challenges.<br />
+          • Setting the benchmark for HR/IR education, training, and professional conduct.<br />
+          • Facilitating a collaborative environment for knowledge exchange and professional growth.<br />
+        </p>
         </Card>
         <Card title="Values">
-          <p>Content for Values goes here.</p>
+        <p>
+          • Integrity: Upholding the highest ethical standards in all our endeavors.<br />
+          • Excellence: Striving for superior performance and continuous improvement.<br />
+          • Collaboration: Encouraging teamwork and shared knowledge to achieve common goals.<br />
+          • Innovation: Embracing change and creativity to drive HR/IR practices forward.<br />
+          • Inclusivity: Fostering a culture of diversity and respect within the HR community.<br />
+        </p>
         </Card>
       </VerticalSection>
 
       {/* News Section */}
-      <div style={{ flex: 2 }}>
+      <div style={{ flex: 2 , marginTop: '20px'}}>
         <NewsGrid>
           <Card title="Tech’s Controlling Payroll Errors, But There’s Room to Improve">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi at sunt repellat nulla. Amet, vitae distinctio eos id suscipit laboriosam.</p>
