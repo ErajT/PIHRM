@@ -12,7 +12,7 @@ const HeaderTop = () => {
 
 // Inline styles for the div and img
 const headerTopStyle = {
-  height: '7vh',
+  height: '60px',
   backgroundColor: 'rgb(188, 212, 231)',
   display: 'flex',
   alignItems: 'center', // Center the content vertically
@@ -29,7 +29,7 @@ const imgStyle = {
   maxWidth: '100%',
   maxHeight: '100%',
   width: 'auto',
-  height: '70px',
+  height: '60px',
 };
 
 export default HeaderTop;
