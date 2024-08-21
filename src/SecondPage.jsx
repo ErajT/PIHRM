@@ -121,6 +121,24 @@ const SecondPage = () => {
           <Card title="Personalized Benefits a Secret Weapon for Boosting Retention">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eaque vero harum sequi laudantium. Quasi quam ipsa modi error in.</p>
           </Card>
+          <Card title="Tech’s Controlling Payroll Errors, But There’s Room to Improve">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi at sunt repellat nulla. Amet, vitae distinctio eos id suscipit laboriosam.</p>
+          </Card>
+          <Card title="ATS Solutions: 4 Ways to Make Recruitment Chaos Simple">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolor voluptas illo doloremque quis incidunt, eveniet unde maiores voluptatem soluta!</p>
+          </Card>
+          <Card title="3 Ways HR Has Responded to Latest Hiring Trends">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quibusdam quam, recusandae officiis sapiente nobis? Quas id reiciendis corrupti provident.</p>
+          </Card>
+          <Card title="Personalized Benefits a Secret Weapon for Boosting Retention">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eaque vero harum sequi laudantium. Quasi quam ipsa modi error in.</p>
+          </Card>
+          <Card title="3 Ways HR Has Responded to Latest Hiring Trends">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quibusdam quam, recusandae officiis sapiente nobis? Quas id reiciendis corrupti provident.</p>
+          </Card>
+          <Card title="Personalized Benefits a Secret Weapon for Boosting Retention">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eaque vero harum sequi laudantium. Quasi quam ipsa modi error in.</p>
+          </Card>
         </NewsGrid>
       </div>
     </HorizontalSection>
