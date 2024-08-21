@@ -1,9 +1,10 @@
 // import React from 'react'
+// code to be pushed
 
 function Header() {
   return (
     <div className='header'>
-      <img src="./PIHRM-logo.png" alt="no logo found" />
+      <img src="./PIHRM-logo.png" alt="no logo found" /> 
       <div className='header-headings'>
         <div><h5>About Us</h5></div>
         <div><h5>Members</h5></div>
