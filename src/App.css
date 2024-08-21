@@ -14,15 +14,7 @@ html, body, p, h1,h2,h3,h4,h5,h6 {
   position: relative;
 }
 
-#HeaderTop{
-  height: 7vh;
-  background-color: rgb(188, 212, 231);
-}
 
-#HeaderTop img{
-  position: absolute;
-  left: 50%;
-}
 
 .header{
   width: 100%;
@@ -47,16 +39,6 @@ html, body, p, h1,h2,h3,h4,h5,h6 {
   padding: 0;
 }
 
-.Second{
-  background-color: rgb(207, 183, 135);
-  height: 100vh;
-}
 
-.SecondPageTitle{
-  font-size: large;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  margin-left: 10%;
-  padding-top: 5%;
-}
 
 
