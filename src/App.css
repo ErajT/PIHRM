@@ -15,13 +15,13 @@ html, body, p, h1,h2,h3,h4,h5,h6 {
 }
 
 #HeaderTop{
-  height: 7%;
+  height: 7vh;
   background-color: rgb(188, 212, 231);
 }
 
 .header{
   width: 100%;
-  height: 10%;
+  height: 10vh;
   /* margin-top: 3%; */
   /* margin-left: 10%; */
   background-color: rgb(161, 170, 177);

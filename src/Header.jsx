@@ -10,8 +10,8 @@ function Header() {
         <div><h5>Membership</h5></div>
         <div><h5>Leadership & Development</h5></div>
         <div><h5>Contant Us</h5></div>
-        <div><h5></h5></div>
-        <div><h5></h5></div>
+        <div><h5>Events and Education</h5></div>
+        <div><h5>Community</h5></div>
       </div>
     </div>
   )

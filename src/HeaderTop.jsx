@@ -3,7 +3,7 @@
 const HeaderTop = () => {
   return (
     <div id='HeaderTop'>
-        <img src="/image.png" alt="no logo present" />
+        <img src="/image.jpg" alt="no logo present" />
     </div>
   )
 }
