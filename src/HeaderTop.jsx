@@ -29,7 +29,7 @@ const imgStyle = {
   maxWidth: '100%',
   maxHeight: '100%',
   width: 'auto',
-  height: '7vh',
+  height: '70px',
 };
 
 export default HeaderTop;
