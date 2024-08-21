@@ -16,7 +16,7 @@ const headerTopStyle = {
   backgroundColor: 'rgb(188, 212, 231)',
   display: 'flex',
   alignItems: 'center', // Center the content vertically
-  position: 'relative', // Ensure absolute positioning works correctly
+  justifyContent: 'center'
 };
 
 const imgContainerStyle = {
@@ -29,7 +29,7 @@ const imgStyle = {
   maxWidth: '100%',
   maxHeight: '100%',
   width: 'auto',
-  height: 'auto',
+  height: '100%',
 };
 
 export default HeaderTop;
