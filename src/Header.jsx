@@ -7,9 +7,11 @@ function Header() {
       <img src="./PIHRM-logo.png" alt="no logo found" /> 
       <div className='header-headings'>
         <div><h5>About Us</h5></div>
-        <div><h5>Members</h5></div>
-        <div><h5>Leadership & Innovation</h5></div>
+        <div><h5>Membership</h5></div>
+        <div><h5>Leadership & Development</h5></div>
         <div><h5>Contant Us</h5></div>
+        <div><h5></h5></div>
+        <div><h5></h5></div>
       </div>
     </div>
   )
