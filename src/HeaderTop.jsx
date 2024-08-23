@@ -18,7 +18,7 @@ const HeaderTop = () => {
 // Inline styles for the div and img
 const headerTopStyle = {
   height: '60px',
-  backgroundColor: 'rgb(188, 212, 231)',
+  backgroundColor: 'wheat',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center'
