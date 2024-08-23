@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types';
 
 // Custom Card component
-const Card = ({ title, children }) => {
+const Card = ({ title, children, imageSrc }) => {
   const cardStyle = {
     borderRadius: '15px',
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
@@ -11,8 +11,15 @@ const Card = ({ title, children }) => {
     backgroundColor: '#fff',
   };
 
+  const imageStyle = {
+    width: '100%',
+    height: 'auto',
+    borderRadius: '15px 15px 0 0', // Rounded top corners for the image
+  };
+
   return (
     <div style={cardStyle}>
+      {imageSrc && <img src={imageSrc} alt={title} style={imageStyle} />}
       <h3>{title}</h3>
       <div>{children}</div>
     </div>
@@ -22,6 +29,7 @@ const Card = ({ title, children }) => {
 Card.propTypes = {
   title: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
+  imageSrc: PropTypes.string, // Optional prop for the image source
 };
 
 // Custom Section component for vertical layout
@@ -109,35 +117,17 @@ const SecondPage = () => {
       {/* News Section */}
       <div style={{ flex: 2 , marginTop: '20px'}}>
         <NewsGrid>
-          <Card title="Tech’s Controlling Payroll Errors, But There’s Room to Improve">
+        <Card 
+            title="Tech’s Controlling Payroll Errors, But There’s Room to Improve"
+            imageSrc="./image.png"
+          >
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi at sunt repellat nulla. Amet, vitae distinctio eos id suscipit laboriosam.</p>
           </Card>
-          <Card title="ATS Solutions: 4 Ways to Make Recruitment Chaos Simple">
+          <Card 
+            title="ATS Solutions: 4 Ways to Make Recruitment Chaos Simple"
+            imageSrc="path/to/news2-image.jpg"
+          >
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolor voluptas illo doloremque quis incidunt, eveniet unde maiores voluptatem soluta!</p>
-          </Card>
-          <Card title="3 Ways HR Has Responded to Latest Hiring Trends">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quibusdam quam, recusandae officiis sapiente nobis? Quas id reiciendis corrupti provident.</p>
-          </Card>
-          <Card title="Personalized Benefits a Secret Weapon for Boosting Retention">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eaque vero harum sequi laudantium. Quasi quam ipsa modi error in.</p>
-          </Card>
-          <Card title="Tech’s Controlling Payroll Errors, But There’s Room to Improve">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi at sunt repellat nulla. Amet, vitae distinctio eos id suscipit laboriosam.</p>
-          </Card>
-          <Card title="ATS Solutions: 4 Ways to Make Recruitment Chaos Simple">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolor voluptas illo doloremque quis incidunt, eveniet unde maiores voluptatem soluta!</p>
-          </Card>
-          <Card title="3 Ways HR Has Responded to Latest Hiring Trends">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quibusdam quam, recusandae officiis sapiente nobis? Quas id reiciendis corrupti provident.</p>
-          </Card>
-          <Card title="Personalized Benefits a Secret Weapon for Boosting Retention">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eaque vero harum sequi laudantium. Quasi quam ipsa modi error in.</p>
-          </Card>
-          <Card title="3 Ways HR Has Responded to Latest Hiring Trends">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quibusdam quam, recusandae officiis sapiente nobis? Quas id reiciendis corrupti provident.</p>
-          </Card>
-          <Card title="Personalized Benefits a Secret Weapon for Boosting Retention">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eaque vero harum sequi laudantium. Quasi quam ipsa modi error in.</p>
           </Card>
         </NewsGrid>
       </div>

@@ -1,10 +1,10 @@
-// import React from 'react';
+
 
 const HeaderTop = () => {
   return (
     <div id="HeaderTop" style={headerTopStyle}>
       <div style={imgContainerStyle}>
-        <img src="./image.jpg" alt="no logo present" style={imgStyle} />
+        <img src="./image.png" alt="no logo present" style={imgStyle} />
       </div>
     </div>
   );
@@ -15,14 +15,14 @@ const headerTopStyle = {
   height: '60px',
   backgroundColor: 'rgb(188, 212, 231)',
   display: 'flex',
-  alignItems: 'center', // Center the content vertically
+  alignItems: 'center',
   justifyContent: 'center'
 };
 
 const imgContainerStyle = {
   flex: '1',
   display: 'flex',
-  justifyContent: 'center', // Center the image horizontally
+  justifyContent: 'center',
 };
 
 const imgStyle = {
