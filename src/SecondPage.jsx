@@ -119,13 +119,13 @@ const SecondPage = () => {
         <NewsGrid>
         <Card 
             title="Tech’s Controlling Payroll Errors, But There’s Room to Improve"
-            imageSrc="./image.png"
+            imageSrc="https://media.istockphoto.com/id/1366137792/photo/business-persons-on-meeting-in-the-office.jpg?s=612x612&w=0&k=20&c=0ya-nb5-ksH44xHreYxOOva9Hku1xcA7LtbfTxeSzNE="
           >
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi at sunt repellat nulla. Amet, vitae distinctio eos id suscipit laboriosam.</p>
           </Card>
           <Card 
             title="ATS Solutions: 4 Ways to Make Recruitment Chaos Simple"
-            imageSrc="path/to/news2-image.jpg"
+            imageSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjSMzdYTA1eV8H5UwCVoSxewWbNOuIAnpNNYehykbFpDo_1-dx__keabTMBQiSVxy4eIk&usqp=CAU"
           >
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolor voluptas illo doloremque quis incidunt, eveniet unde maiores voluptatem soluta!</p>
           </Card>

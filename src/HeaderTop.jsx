@@ -6,6 +6,11 @@ const HeaderTop = () => {
       <div style={imgContainerStyle}>
         <img src="./image.png" alt="no logo present" style={imgStyle} />
       </div>
+      <div>
+        <button style={buttonStyle}>
+          Contact Us
+        </button>
+      </div>
     </div>
   );
 };
@@ -30,6 +35,17 @@ const imgStyle = {
   maxHeight: '100%',
   width: 'auto',
   height: '60px',
+};
+
+const buttonStyle = {
+  height: '70%',
+  padding: '10px 20px',
+  margin: '20px',
+  backgroundColor: 'darkblue', // Dark blue background color
+  color: 'white', // White text color
+  border: 'none', // No border
+  borderRadius: '10px', // Rounded corners
+  cursor: 'pointer', // Pointer cursor on hover
 };
 
 export default HeaderTop;
